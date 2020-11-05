@@ -1,4 +1,4 @@
-# DocumentaÁ„o Back-End
+# Documenta√ß√£o Back-End
 
 ## Tema
 
@@ -13,11 +13,16 @@
 | alimentacao | boolean |
 | pernoite | boolean |
 
-Tabela Tema servir· para categorizar as postagens e filtrar os interesses dos usu·rios.
+Tabela Tema servir√° para categorizar as postagens e filtrar os interesses dos usu√°rios.
 
-**id** ñ Identifica o n∞ da categoria.
-**descriÁ„o** - Nome da categoria.
-**parceria** - Mostrar se h· parcerias no post.
-**local** - AtribuiÁ„o de localidade fÌsica aos posts
-**alimentaÁ„o** - Mostrar se o local oferece alimentaÁ„o
+**id** ‚Äì Identifica o n¬∞ da categoria.
+
+**descri√ß√£o** - Nome da categoria.
+
+**parceria** - Mostrar se h√° parcerias no post.
+
+**local** - Atribui√ß√£o de localidade f√≠sica aos posts
+
+**alimenta√ß√£o** - Mostrar se o local oferece alimenta√ß√£o
+
 **pernoite** - Mostrar se o local oferece pernoite
