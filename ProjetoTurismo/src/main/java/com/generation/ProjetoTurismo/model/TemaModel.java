@@ -17,11 +17,11 @@ public class TemaModel {
 	private Long id;
 	
 	@NotNull
-	@Size(min = 10, max = 255)
+	@Size(min = 2, max = 255)
 	private String descricao;
 	
-	@NotNull
-	private boolean parceria;
+	@Size(min = 2, max = 255)
+	private String parceria;
 	
 	@NotNull
 	@Size(min = 2, max = 255)
@@ -46,10 +46,11 @@ public class TemaModel {
 	public void setDescricao(String descricao) {
 		this.descricao = descricao;
 	}
-	public boolean isParceria() {
+	
+	public String getParceria() {
 		return parceria;
 	}
-	public void setParceria(boolean parceria) {
+	public void setParceria(String parceria) {
 		this.parceria = parceria;
 	}
 	public String getLocal() {
