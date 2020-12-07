@@ -34,7 +34,7 @@ public class SwaggerConfig {
     }
 
     private Contact contact(){
-        return new Contact("Carla Carvalho, Fabiano Aparecido, Gustavo Mathielo, Gustavo Olegário, Vanessa Regina de Jesus da Silva",
+        return new Contact("Carla Carvalho, Gustavo Mathielo, Gustavo Olegário, Vanessa Regina de Jesus da Silva",
                 "https://github.com/vanmtv/ProjetoTurismo",
                 "Dev's Java Full Stack");
     }
