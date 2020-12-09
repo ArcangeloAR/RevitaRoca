@@ -1,30 +1,26 @@
+import { TemaService } from './../service/tema.service';
+import { PostagemService } from './../service/postagem.service';
+import { Tema } from './../model/Tema';
 import { Postagem } from './../model/Postagem';
 import { Component, OnInit } from '@angular/core';
-import { PostagemService } from '../service/postagem.service';
-import { TemaService } from '../service/tema.service';
-
-import { Tema } from '../model/Tema';
-
-
 
 @Component({
-  selector: 'app-feed',
-  templateUrl: './feed.component.html',
-  styleUrls: ['./feed.component.css']
+  selector: 'app-feed2',
+  templateUrl: './feed2.component.html',
+  styleUrls: ['./feed2.component.css']
 })
-export class FeedComponent implements OnInit {
+export class Feed2Component implements OnInit {
 
   key = 'date'
   reverse = true
 
   text:string;
-  postagem: Postagem
+  postagem: Postagem = new Postagem()
   listaPostagens: Postagem[]
   
   tema: Tema = new Tema()
   listaTemas: Tema[]
   idTema: number
-
   
 
   constructor(
