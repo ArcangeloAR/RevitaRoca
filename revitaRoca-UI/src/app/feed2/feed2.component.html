@@ -61,8 +61,8 @@
                       <small>Tema: {{ item.tema.descricao }}</small>
                     </div>
                     <div class="col-md-4 d-flex justify-content-end">
-                      <button class="mr-3 btn btn-outline-info">Editar</button>
-                      <button class="btn btn-outline-danger ml-3">Apagar</button>
+                      <button class="mr-3 btn btn-outline-info" [routerLink]="['/edita-postagem', item.id]">Editar</button>
+                      <button class="btn btn-outline-danger ml-3" [routerLink]="['/deleta-postagem', item.id]">Apagar</button>
                     </div>
                   </div>
                 </div>
