@@ -1,3 +1,4 @@
+import { environment } from './../../environments/environment.prod';
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
@@ -11,7 +12,7 @@ export class TemaService {
   constructor(private http: HttpClient) { }
 
   token = {
-    headers: new HttpHeaders().set('Authorization', localStorage.getItem('token')!)
+    headers: new HttpHeaders().set('Authorization', environment.token)
   }
 
   getAllTemas(): Observable<Tema[]>{
@@ -20,6 +21,10 @@ export class TemaService {
 
   getByIdTema(id: number): Observable<Tema>{
     return this.http.get<Tema>(`http://localhost:9000/tema/${id}`, this.token)
+  }
+
+  getByNomeTema(descricao: string): Observable<Tema[]> {
+    return this.http.get<Tema[]>(`http://localhost:9000/tema/descricao/${descricao}`, this.token)
   }
 
   postTema(tema: Tema): Observable<Tema>{

@@ -1,7 +1,25 @@
-.bg-maroon{
-    background-color: #844E2B;
-}
-
 a {
     cursor: pointer;
+}
+
+.zoom:hover{
+    transform: scale(1.2);
+    color: green;
+}
+.navbar-nav > li >a{
+    color: #30633a;
+}
+.navbar-nav > li:hover >a,
+.navbar-nav > li.active >a
+{
+  color: #35dd2c;
+}
+
+.navbar-nav >div >li >a{
+  color: #30633a;
+}
+.navbar-nav >div > li:hover >a,
+.navbar-nav >div > li.active >a
+{
+  color: #35dd2c;
 }

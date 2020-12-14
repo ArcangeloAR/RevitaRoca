@@ -1,3 +1,4 @@
+import { environment } from './../../environments/environment.prod';
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { UserLogin } from '../model/UserLogin';
@@ -21,9 +22,9 @@ export class AuthService {
 
   btnSair() {
     let ok = false
-    let token = localStorage.getItem('token')
+    let token = environment.token
 
-    if (token != null) {
+    if (token != '') {
       ok = true
     }
 
@@ -32,9 +33,9 @@ export class AuthService {
 
   btnLogin() {
     let ok = false
-    let token = localStorage.getItem('token')
+    let token = environment.token
 
-    if (token == null) {
+    if (token == '') {
       ok = true
     }
 
