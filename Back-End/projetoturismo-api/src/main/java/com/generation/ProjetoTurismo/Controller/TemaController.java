@@ -55,10 +55,4 @@ public class TemaController {
 	public void delete(@PathVariable long id) {
 		repository.deleteById(id);
 	}
-	
-	@GetMapping("/local/{local}")
-	public ResponseEntity<List<TemaModel>> getByLocal(@PathVariable String local){
-		return ResponseEntity.ok(repository.findAllByLocalContainsIgnoreCase(local));
-	
-	}
-	}
+}

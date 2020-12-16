@@ -34,9 +34,6 @@ public class PostagemModel {
 	@Temporal(TemporalType.TIMESTAMP)
     private Date data = new java.sql.Date(System.currentTimeMillis());
 	
-	// @NotNull
-	private boolean ativo;
-	
 	@ManyToOne
 	@JsonIgnoreProperties("postagem")
 	private TemaModel tema;
@@ -75,14 +72,6 @@ public class PostagemModel {
 
 	public void setData(Date data) {
 		this.data = data;
-	}
-
-	public boolean isAtivo() {
-		return ativo;
-	}
-
-	public void setAtivo(boolean ativo) {
-		this.ativo = ativo;
 	}
 
 	public TemaModel getTema() {

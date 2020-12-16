@@ -58,10 +58,4 @@ public class PostagemController {
 	public void delete(@PathVariable Long id) {
 		repository.deleteById(id);
 	}	
-	
-	@GetMapping("/ativo/{ativo}")
-	public ResponseEntity<List<PostagemModel>> getAtivo(@PathVariable Boolean ativo){
-		return ResponseEntity.ok(repository.findAlByAtivo(ativo));
-	}
-
 }

@@ -25,20 +25,7 @@ public class TemaModel {
 	@NotNull
 	@Size(min = 2, max = 255)
 	private String descricao;
-	
-	@Size(min = 2, max = 255)
-	private String parceria;
-	
-	// @NotNull
-	@Size(min = 2, max = 255)
-	private String local;
-	
-	// @NotNull
-	private boolean alimentacao;
-	
-	// @NotNull
-	private boolean pernoite;
-	
+
 	@OneToMany(mappedBy = "tema", cascade = CascadeType.ALL)
 	@JsonIgnoreProperties("tema")
 	private List<PostagemModel> postagem;
@@ -57,30 +44,6 @@ public class TemaModel {
 		this.descricao = descricao;
 	}
 	
-	public String getParceria() {
-		return parceria;
-	}
-	public void setParceria(String parceria) {
-		this.parceria = parceria;
-	}
-	public String getLocal() {
-		return local;
-	}
-	public void setLocal(String local) {
-		this.local = local;
-	}
-	public boolean isAlimentacao() {
-		return alimentacao;
-	}
-	public void setAlimentacao(boolean alimentacao) {
-		this.alimentacao = alimentacao;
-	}
-	public boolean isPernoite() {
-		return pernoite;
-	}
-	public void setPernoite(boolean pernoite) {
-		this.pernoite = pernoite;
-	}
 	public List<PostagemModel> getPostagem() {
 		return postagem;
 	}
