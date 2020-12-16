@@ -13,11 +13,11 @@ export class AuthService {
   constructor(private http: HttpClient) { }
 
   logar(userLogin: UserLogin): Observable<UserLogin> {
-    return this.http.post<UserLogin>('http://localhost:9000/usuarios/logar', userLogin)
+    return this.http.post<UserLogin>('https://revitaroca.herokuapp.com/usuarios/logar', userLogin)
   }
 
   cadastrar(user: UsuarioModel): Observable<UsuarioModel> {
-    return this.http.post<UsuarioModel>('http://localhost:9000/usuarios/cadastrar', user)
+    return this.http.post<UsuarioModel>('https://revitaroca.herokuapp.com/usuarios/cadastrar', user)
   }
 
   btnSair() {

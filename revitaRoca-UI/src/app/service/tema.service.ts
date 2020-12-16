@@ -16,26 +16,26 @@ export class TemaService {
   }
 
   getAllTemas(): Observable<Tema[]>{
-    return this.http.get<Tema[]>('http://localhost:9000/tema', this.token)
+    return this.http.get<Tema[]>('https://revitaroca.herokuapp.com/tema', this.token)
   }
 
   getByIdTema(id: number): Observable<Tema>{
-    return this.http.get<Tema>(`http://localhost:9000/tema/${id}`, this.token)
+    return this.http.get<Tema>(`https://revitaroca.herokuapp.com/tema/${id}`, this.token)
   }
 
   getByNomeTema(descricao: string): Observable<Tema[]> {
-    return this.http.get<Tema[]>(`http://localhost:9000/tema/descricao/${descricao}`, this.token)
+    return this.http.get<Tema[]>(`https://revitaroca.herokuapp.com/tema/descricao/${descricao}`, this.token)
   }
 
   postTema(tema: Tema): Observable<Tema>{
-    return this.http.post<Tema>('http://localhost:9000/tema', tema, this.token)
+    return this.http.post<Tema>('https://revitaroca.herokuapp.com/tema', tema, this.token)
   }
 
   putTema(tema: Tema) : Observable<Tema> {
-    return this.http.put<Tema>('http://localhost:9000/tema', tema, this.token)
+    return this.http.put<Tema>('https://revitaroca.herokuapp.com/tema', tema, this.token)
   }
 
   deleteTema(id: number) {
-    return this.http.delete(`http://localhost:9000/tema/${id}`, this.token)
+    return this.http.delete(`https://revitaroca.herokuapp.com/tema/${id}`, this.token)
   }
 }
