@@ -1,9 +1,7 @@
-<div class="container">
-  <div class="row">
-    <div class="col-md-4">
-    </div>
-    <div class="col-md-8 mt-5">
-      <h3 class="text-center mb-4 text-monospace">Como tem sido minha experiência na Generation?</h3>
+<div class="container-fluid d-flex justify-content-center">
+  <div class="row d-flex justify-content-center parallax">
+    <div class="col-md-6 mt-5 opa">
+      <h3 class="text-center mb-4 text-monospace"><p>Bem vinde ao nosso Feed!</p> <p>Aqui você pode compartilhar as suas experiências e/ou ver as experiências de outras pessoas.</p></h3>
       <div class="form-group">
         <label class="text-monospace" for="titulo">Título:</label>
         <input type="text" class="form-control" id="titulo" placeholder="Digite aqui o seu titulo"
@@ -27,14 +25,14 @@
           </div>
         </div>
         <div class="col-md-6 d-flex justify-content-end">
-          <button type="button" class="btn btn-outline-info w-25" (click)='publicar()'>Publicar</button>
+          <button type="button" class="btn btn-outline-success w-25" (click)='publicar()'>Publicar</button>
         </div>
       </div>
       <hr class="mt-5 mb-5">
       <nav class="d-flex justify-content-center">
         <div class="nav nav-tabs" id="nav-tab" role="tablist">
           <a class="nav-item nav-link active text-secondary font-weight-bold" id="nav-home-tab" data-toggle="tab"
-            href="#minhas-postagens" aria-controls="nav-home" aria-selected="true">Minhas Postagens</a>
+            href="#minhas-postagens" aria-controls="nav-home" aria-selected="true">Postagens</a>
           <a class="nav-item nav-link text-secondary font-weight-bold" id="nav-profile-tab" data-toggle="tab"
             href="#postagens-temas" role="tab" aria-controls="nav-profile" aria-selected="false">Postagens por Tema</a>
         </div>
@@ -45,11 +43,11 @@
           aria-labelledby="nav-postagens-tab">
           <div class="row mt-3 mb-3">
             <div class="col-md-10 pr-0">
-              <input class="form-control w-100" type="search" placeholder="Pesquisar postagem" aria-label="Pesquisar"
+              <input class="form-control w-100 mr-2" type="search" placeholder="Pesquisar postagem" aria-label="Pesquisar"
                 [(ngModel)]='titulo'>
             </div>
             <div class="col-md-2 pl-0">
-              <button class="btn btn-outline-warning w-100" type="button"
+              <button class="btn btn-outline-warning w-100 " type="button"
                 (click)='findByTituloPostagem()'>Pesquisar</button>
             </div>
           </div>
@@ -84,7 +82,7 @@
 
           <div class="row mt-3 mb-3">
             <div class="col-md-10 pr-0">
-              <input class="form-control w-100" type="search" placeholder="Pesquisar postagem" aria-label="Pesquisar" [(ngModel)]='nomeTema'>
+              <input class="form-control w-100" type="search" placeholder="Pesquisar tema" aria-label="Pesquisar" [(ngModel)]='nomeTema'>
             </div>
             <div class="col-md-2 pl-0">
               <button class="btn btn-outline-warning  w-100" type="button" (click)='findByNomeTema()'>Pesquisar</button>
