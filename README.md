@@ -21,3 +21,52 @@ Hoje em dia, o turista pensa em vivenciar algo fora do turismo padrão, como vis
 
 ![enter image description here](https://imgur.com/IGwyMCx.png)
 
+
+## [](https://github.com/vanmtv/RevitaRoca/tree/master/README.md#documenta%C3%A7%C3%A3o-completa)Documentação completa
+
+-   [Back-end](https://github.com/laisbasso/PI-Seiva/blob/master/Entregas/DocumentacaoCompletaBackEnd.md)
+-   [Front-end](https://laisbasso.github.io/PI-Seiva/)
+
+## [](https://github.com/vanmtv/RevitaRoca/tree/master/README.md#screenshots)Screenshots
+
+### [](https://github.com/vanmtv/RevitaRoca/tree/master/README.md#home)Home
+
+![enter image description here](https://imgur.com/AVVFCrD.png)
+
+### [](https://github.com/vanmtv/RevitaRoca/tree/master/README.md#sobre-nos)Sobre nós
+
+![enter image description here](https://imgur.com/4UEzPkK.png)
+
+### [](https://github.com/vanmtv/RevitaRoca/tree/master/README.md#cadastro)Cadastro
+
+![enter image description here](https://imgur.com/U8rJCxh.png)
+
+### [](https://github.com/vanmtv/RevitaRoca/tree/master/README.md#login)Login
+
+![enter image description here](https://imgur.com/1tkrnql.png)
+
+### [](https://github.com/vanmtv/RevitaRoca/tree/master/README.md#feed)Feed
+
+![enter image description here](https://imgur.com/rb6uPn8.png)
+
+### [](https://github.com/vanmtv/RevitaRoca/tree/master/README.md#cadastro-e-gerenciamento-de-temas)Cadastro e Gerenciamento de Temas
+
+![enter image description here](https://imgur.com/soL3oOV.png)
+
+### [](https://github.com/vanmtv/RevitaRoca/tree/master/README.md#excluir-tema)Editar Tema
+
+![enter image description here](https://imgur.com/sOJ1oki.png)
+
+### [](https://github.com/vanmtv/RevitaRoca/tree/master/README.md#excluir-tema)Excluir Tema
+![enter image description here](https://imgur.com/5HiHIpV.png)
+
+### [](https://github.com/vanmtv/RevitaRoca/tree/master/README.md#exclus%C3%A3o-da-postagem)Editar postagem
+
+![enter image description here](https://imgur.com/Khy1s80.png)
+
+### [](https://github.com/vanmtv/RevitaRoca/tree/master/README.md#exclus%C3%A3o-da-postagem)Excluir postagem
+
+![enter image description here](https://imgur.com/SGhhIPO.png)
+
+
+
