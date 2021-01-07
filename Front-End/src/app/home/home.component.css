@@ -1,0 +1,14 @@
+.parallax {
+    background-image: url('../../assets/img/backgroundlogin.jpg');
+
+    min-height: 200px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron {
+    background: rgba(255, 255, 255, 1.0); 
+ }

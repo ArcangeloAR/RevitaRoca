@@ -1,0 +1,27 @@
+.zoom:hover{
+    transform: scale(1.2);
+}
+
+.parallaxSobre {
+    background-image: url('../../assets/img/fundo.gif');
+
+    min-height: 500px;
+
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 66px;
+}
+
+.parallaxEquipe {
+    background-image: url('../../assets/img/Equipe.gif');
+
+    min-height: 500px;
+
+    background-attachment: inherit;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 66px;
+}
