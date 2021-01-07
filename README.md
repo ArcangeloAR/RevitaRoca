@@ -24,8 +24,8 @@ Hoje em dia, o turista pensa em vivenciar algo fora do turismo padrão, como vis
 
 ## [](https://github.com/vanmtv/RevitaRoca/tree/master/README.md#documenta%C3%A7%C3%A3o-completa)Documentação completa
 
--   [Back-end](https://github.com/laisbasso/PI-Seiva/blob/master/Entregas/DocumentacaoCompletaBackEnd.md)
--   [Front-end](https://laisbasso.github.io/PI-Seiva/)
+-   [Back-end](https://github.com/vanmtv/RevitaRoca/blob/master/Back-End/DocumentacaoBackEnd.md)
+-   [Front-end]()
 
 ## [](https://github.com/vanmtv/RevitaRoca/tree/master/README.md#screenshots)Screenshots
 
