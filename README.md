@@ -5,7 +5,7 @@
 :horse:  [Gustavo Olegário de Sousa](https://github.com/olegario-gu "GitHub")  
 :sheep:  [Vanessa Regina de Jesus da Silva](https://github.com/vanmtv "GitHub")
 
-# Revita Roça :seedling: :pig_nose:
+# Revita Roça :seedling: :pig_nose: [(Visite aqui)](https://revitaroca.herokuapp.com/)
 
 Projeto Integrador do _Grupo 04_ desenvolvido no _Bootcamp Generation_.
 
@@ -17,7 +17,7 @@ Para desenvolver esse projeto seguimos os **Objetivos de Desenvolvimento Sustent
 
 Chegamos a conclusão que é necessária a criação de uma plataforma em formato de **rede-social** para conectar turistas, comunidades, empreendedores e curiosos.  
   
-Hoje em dia, o turista pensa em vivenciar algo fora do turismo padrão, como visitar o campo e ter experiências que o façam “se sentir vivo” e conectado com a natureza. Pensando nisso e nos objetivos que listamos, sabemos que a rede-social fará a diferença não só para turistas, como ascenderá a comunidade rural socioeconomicamente.
+Hoje em dia, o turista pensa em vivenciar algo fora do turismo padrão, como visitar o campo e ter experiências que o façam _“se sentir vivo”_ e conectado com a natureza. Pensando nisso e nos objetivos que listamos, sabemos que a rede-social fará a diferença não só para turistas, como ascenderá a comunidade rural socioeconomicamente.
 
 ![enter image description here](https://imgur.com/IGwyMCx.png)
 
