@@ -5,7 +5,7 @@
 :horse:  [Gustavo Olegário de Sousa](https://github.com/olegario-gu "GitHub")  
 :sheep:  [Vanessa Regina de Jesus da Silva](https://github.com/vanmtv "GitHub")
 
-# Revita Roça :seedling: :pig_nose: [(Visite aqui)](https://revitaroca.herokuapp.com/)
+# Revita Roça :seedling: :pig_nose: [(Visite aqui)](https://revitaroca.herokuapp.com/){:target="_blank"}
 
 Projeto Integrador do _Grupo 04_ desenvolvido no _Bootcamp Generation_.
 
