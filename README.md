@@ -1,7 +1,7 @@
 ### Integrantes Grupo 4 - Revita Roça ✨
 
 :rooster: [Carla Carvalho de Lima](https://github.com/CarlaCarvaLima "GitHub")  
-:rabbit:  [Gustavo Mathielo](https://github.com/gustavomathielo "GitHub")  
+:pig:  [Gustavo Mathielo](https://github.com/gustavomathielo "GitHub")  
 :horse:  [Gustavo Olegário de Sousa](https://github.com/olegario-gu "GitHub")  
 :sheep:  [Vanessa Regina de Jesus da Silva](https://github.com/vanmtv "GitHub")
 
